@@ -1,5 +1,19 @@
-* {
+body {
     font-family: "Figtree";
+    background-color: #F4D04E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 24rem;
+    height: 32.625rem;
+    border-radius: 1.25rem;
+    background-color: #FFF;
+    
 }
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
