@@ -6,16 +6,27 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    max-width: 100%;
+}
+
+.container {
+    padding: 24px;
 }
 
 .card {
     width: 24rem;
-    height: 32.625rem;
     border-radius: 1.25rem;
+    border: 1px solid #111;
+    box-shadow: 8px 8px 0 0 #000;
     background-color: #FFF;
-    
 }
-.attribution { font-size: 0.6875rem; text-align: center; }
+
+.banner {
+    border-radius: 0.63rem;
+    max-width: 100%;
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; margin-top: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (max-width: 600px) {
@@ -29,7 +40,7 @@ body {
         font-size: 1.25rem;
     }
     .content {
-        font-size: 0.875rem;
+        font-size: 0.875remŔ;
     }
 
 }
