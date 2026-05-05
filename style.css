@@ -26,6 +26,45 @@ body {
     max-width: 100%;
 }
 
+.tag {
+    width: fit-content;
+    background-color: #F4D04E;
+    margin-top: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+
+    font-size: 0.875rem;
+    font-weight: 800;
+    text-align: center;
+}
+p {
+    margin: 0;
+}
+.date {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 150%; 
+    padding-block: 0.75rem;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.content {
+    padding-top: 0.75rem;
+    color: #6B6B6B;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
 .attribution { font-size: 0.6875rem; text-align: center; margin-top: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
