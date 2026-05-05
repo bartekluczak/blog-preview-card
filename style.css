@@ -17,3 +17,19 @@ body {
 }
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 20.4375rem;
+    }
+    .date, .tag {
+        font-size: 0.75rem;
+    }
+    .title {
+        font-size: 1.25rem;
+    }
+    .content {
+        font-size: 0.875rem;
+    }
+
+}
