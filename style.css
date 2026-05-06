@@ -1,5 +1,5 @@
 body {
-    font-family: "Figtree";
+    font-family: "Figtreef", sans-serif;
     background-color: #F4D04E;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 .card {
@@ -29,7 +29,7 @@ body {
 .tag {
     width: fit-content;
     background-color: #F4D04E;
-    margin-top: 1.5rem;
+    margin-block-start: 1.5rem;
     border-radius: 0.25rem;
     padding: 0.25rem 0.75rem;
 
@@ -85,7 +85,8 @@ p {
 .attribution { font-size: 0.6875rem; text-align: center; margin-top: 1rem;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
+    
     .card {
         width: 20.4375rem;
     }
@@ -96,7 +97,6 @@ p {
         font-size: 1.25rem;
     }
     .content {
-        font-size: 0.875remŔ;
+        font-size: 0.875rem;
     }
-
 }
